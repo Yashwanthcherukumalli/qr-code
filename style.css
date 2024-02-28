@@ -1,0 +1,28 @@
+/* *{border: 2px solid red;} */
+
+body{
+    background-color: rgb(163, 205, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.qr-text{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+.qr-image{
+    width: 300px;
+    border-radius: 15px;
+}
+.qr-text p{
+    color: rgb(170, 170, 173);
+}
